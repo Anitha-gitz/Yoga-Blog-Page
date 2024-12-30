@@ -1,0 +1,11 @@
+.pop-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+  }
+  
+  .pop-up.visible {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  
